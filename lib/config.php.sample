@@ -1,0 +1,22 @@
+<?php
+
+// Config values:
+
+define("PDO_DSN", "mysql:dbname=XXXXX;host=XXXXX");
+define("PDO_USER", "XXXXX");
+define("PDO_PASS", "XXXXX");
+
+// Values to OpenLDAP access info.
+define("LDAP_SERVER", "ldaps://XXXXX");
+define("XXXXX", "ou=,dc=,dc=");
+
+// Kesecret para encriptar en caso de no haber usuario asociado al token.
+define("KEYSECRET", "XXXXX");
+
+// Values to ALUMNI database access info.
+define("ALUMNI_PDO_DSN", "odbc:XXXXX");
+//define("ALUMNI_PDO_DSN", "odbc:XXXXX");
+define("ALUMNI_PDO_USER", "XXXXX");
+define("ALUMNI_PDO_PASS", "XXXXX");
+
+?>

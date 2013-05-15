@@ -4,23 +4,9 @@
  * Sample OAuth2 Library PDO DB Implementation.
  */
 
-// Values to your database access info.
-define("PDO_DSN", "mysql:dbname=oauth2;host=localhost");
-define("PDO_USER", "oauth2usr");
-define("PDO_PASS", "pbvGnomes1");
+// Values in config.php
 
-// Values to OpenLDAP access info.
-define("LDAP_SERVER", "ldaps://ldap.upc.edu");
-define("LDAP_BASE", "ou=users,dc=upc,dc=edu");
-
-// Kesecret para encriptar en caso de no haber usuario asociado al token.
-define("KEYSECRET", "tanto monta monta tanto");
-
-// Values to ALUMNI database access info.
-define("ALUMNI_PDO_DSN", "odbc:BERG3");
-//define("ALUMNI_PDO_DSN", "odbc:FLIPPER3");
-define("ALUMNI_PDO_USER", "escamic");
-define("ALUMNI_PDO_PASS", "usuamic");
+require "config.php";
 
 include "OAuth2.inc";
 
